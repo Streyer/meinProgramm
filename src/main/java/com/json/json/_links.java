@@ -21,7 +21,7 @@ public class _links {
             for (int counter2 = 0; counter2 < Weapons.weaponPatterns.length; counter2++) {
                 for (int counter3 = 0; counter3 < Weapons.weaponsWear.length; counter3++) {
 
-                    weapons[i] = "http://steamcommunity.com/market/priceoverview/?appid=730&currency=3&market_hash_name=" + Weapons.weaponsList[counter] + " | " + Weapons.weaponPatterns[counter2] + " " + Weapons.weaponsWear[counter3];
+                    weapons[i] = "http://steamcommunity.com/market/priceoverview/?appid=730&currency=3&market_hash_name=" + Weapons.weaponsList[counter] + " | " + Weapons.weaponPatterns[counter2] + " (" + Weapons.weaponsWear[counter3]+")";
                     //System.out.println("Der Counter der WaffenPatterns ist bei:" + counter2);
                     i++;
                 }

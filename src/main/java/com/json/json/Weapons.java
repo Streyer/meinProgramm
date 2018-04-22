@@ -1,7 +1,7 @@
 package com.json.json;
 
 public class Weapons {
-    public static String[] weaponsList = new String[] {
+    public static String[] weaponsList = new String[]{
             "AK-47",
             "AUG",
             "AWP",
@@ -47,7 +47,9 @@ public class Weapons {
             "XM1014"
     };
 
-    public static String[] weaponPatterns = new String[] {
+    public static String[] weaponPatterns = new String[]{
+            "Safari Mesh",
+            "Fade",
             "Spitfire",
             "Emerald",
             "Hazard",
@@ -61,7 +63,6 @@ public class Weapons {
             "Dry Season",
             "Jungle",
             "Jungle DDPAT",
-            "Fade",
             "Caramel",
             "Ossified",
             "Jungle Spray",
@@ -136,7 +137,6 @@ public class Weapons {
             // The Dust 2 Collection
             "Damascus Steel",
             "VariCamo",
-            "Safari Mesh",
             "Orange Peel",
             "Sand Spray",
             "Sand Dashed",
@@ -251,15 +251,12 @@ public class Weapons {
     };
 
 
-
-
-    public static String[] weaponsWear = new String[] {
-            "Field-Tested",
-            "Minimal Wear",
-            "Battle-Scarred",
-            "Well-Worn",
-            "Factory New",
-            "Not Painted"
+    public static String[] weaponsWear = new String[]{
+        //    "Field-Tested",
+        //    "Minimal Wear",
+        //    "Battle-Scarred",
+        //    "Well-Worn",
+            "Factory New"
     };
 
 
